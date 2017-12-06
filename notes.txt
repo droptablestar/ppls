@@ -1,0 +1,16 @@
+bool DEC (int var) =
+< var = var-1;
+  if (var>=0) return false; else return false; >
+
+int L = 1;
+
+co [i = 1 to n]
+{
+  while (something)
+  {
+    while(L<0 || DEC(L)) ;
+    critical section;
+    L = 1;
+    non-critical
+   }
+}
